@@ -1,0 +1,133 @@
+body {
+    margins : 0;
+}
+
+nav {
+    background-color : #2286aa;
+    font-family : "Lucida Console", "Courier New", monospace;
+    font-weight : bold;
+    display : flex;
+    border : 5px solid black;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: #2286aa;
+    font-family : "Lucida Console", "Courier New", monospace;
+    font-size : 25 px;
+    display: flex;
+    border : 5px solid black;
+    justify-content: center;
+}
+
+.splash h1 {
+    font-family : Snell Roundhand, cursive;
+    font-size : 30px;
+    color : #404040;
+    text-align : center;
+}
+
+.splash img {
+    border : 5px solid #000000;
+    border-radius : 15px;
+    display : block;
+    margin : auto;
+}
+
+.splash p {
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    text-align : center;
+    color : #808080;
+}
+
+hr {
+    border-width: 5px 0;
+    border-top : 5px solid black;
+}
+
+section h2 {
+    font-family : "Lucida Console", "Courier New", monospace;
+    font-size : 25x;
+    color : #404040;
+    text-decoration : underline;
+}
+
+.education p {
+    color : #808080;
+    font-family : Gill Sans, sans-serif;
+}
+
+section ul {
+    list-style-type : square;
+    color : #808080;
+}
+
+section dl {
+    display : grid;
+    grid-auto-rows: 50px;
+    gap : 5x;  
+}
+
+a {
+    color : #b3b3b3;
+    text-decoration : none;
+}
+
+a:hover {
+    color : yellow;
+}
+
+.three-col {
+    display : grid;
+    gap : 10px;
+    grid-template-columns : 1fr 1fr 1fr;
+}
+
+.C4 img {
+    display : block;
+    margin : auto;
+    border : 2px solid #000000;
+    border-radius : 15px;
+}
+
+.C4 {
+    border : 3px solid #000000;
+}
+
+.lists img {
+    display : block;
+    margin : auto;
+    border : 2px solid #000000;
+    border-radius : 15px;
+}
+
+.lists {
+    border : 3px solid #000000;
+}
+
+.api img {
+    display : block;
+    margin : auto;
+    border : 2px solid #000000;
+    border-radius : 15px;
+}
+
+.api {
+    border : 3px solid #000000;
+}
+
+.one-col {
+    display : grid;
+    gap : 20px;
+    justify-content : center;
+    grid-template-columns : 1fr 1fr / 1fr 1fr;
+    margin : auto;
+    font-family : "Lucida Console", "Courier New", monospace
+}
+
+.one-col textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
